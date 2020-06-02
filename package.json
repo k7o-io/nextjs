@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,yaml,gql,md,html,css}'"
   },
   "dependencies": {
     "next": "9.4.4",
@@ -13,6 +14,15 @@
   "devDependencies": {
     "@types/node": "14.0.9",
     "@types/react": "16.9.35",
+    "prettier": "2.0.5",
     "typescript": "3.9.3"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "endOfLine": "lf",
+    "trailingComma": "all",
+    "printWidth": 100,
+    "jsxSingleQuote": true
   }
 }
