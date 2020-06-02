@@ -1,6 +1,7 @@
+import { NextPage } from 'next'
 import Head from 'next/head'
 
-export default function Home() {
+export const Page: NextPage = () => {
   return (
     <div className='container'>
       <Head>
@@ -200,3 +201,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Page
