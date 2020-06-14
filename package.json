@@ -9,6 +9,8 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx pages/"
   },
   "dependencies": {
+    "@material-ui/core": "4.10.2",
+    "@material-ui/icons": "4.9.1",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
@@ -69,9 +71,16 @@
         ],
         "rules": {
           "react/react-in-jsx-scope": "off"
-        },
-        "globals": {
-          "React": "writable"
+        }
+      },
+      {
+        "files": [
+          "*.tsx"
+        ],
+        "rules": {
+          "import/no-unresolved": "off",
+          "jsx-a11y/anchor-is-valid": "off",
+          "react/prop-types": "off"
         }
       }
     ],
