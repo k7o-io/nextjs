@@ -4,6 +4,7 @@ import { AppProps } from 'next/app'
 import { CssBaseline } from '@material-ui/core'
 import Head from 'next/head'
 import Header from '@/components/Header'
+import { SWRConfig } from 'swr'
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
@@ -18,7 +19,13 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
       </Head>
       <CssBaseline />
       <Header />
-      <Component {...pageProps} />
+      <SWRConfig
+        value={{
+          fetcher: (key: string) => fetch(key).then((res) => res.json()),
+        }}
+      >
+        <Component {...pageProps} />
+      </SWRConfig>
     </>
   )
 }

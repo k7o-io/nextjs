@@ -90,16 +90,18 @@ export const Header: React.FC = () => {
               <NotificationsIcon />
             </Badge>
           </IconButton>
-          <IconButton
-            edge='end'
-            aria-label='account of current user'
-            // aria-controls={menuId}
-            aria-haspopup='true'
-            // onClick={handleProfileMenuOpen}
-            color='inherit'
-          >
-            <AccountCircle />
-          </IconButton>
+          <Link href='/profile'>
+            <IconButton
+              edge='end'
+              aria-label='account of current user'
+              // aria-controls={menuId}
+              aria-haspopup='true'
+              // onClick={handleProfileMenuOpen}
+              color='inherit'
+            >
+              <AccountCircle />
+            </IconButton>
+          </Link>
         </Toolbar>
       </AppBar>
     </>
