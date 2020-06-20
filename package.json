@@ -81,7 +81,8 @@
         "rules": {
           "import/no-unresolved": "off",
           "jsx-a11y/anchor-is-valid": "off",
-          "react/prop-types": "off"
+          "react/prop-types": "off",
+          "@typescript-eslint/no-empty-interface": "off"
         }
       }
     ],
