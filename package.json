@@ -6,7 +6,7 @@
     "analyze": "ANALYZE=true yarn run build",
     "start": "next start",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,yaml,gql,md,html,css}'",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx pages/"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx pages/ components/"
   },
   "dependencies": {
     "@material-ui/core": "4.10.2",
