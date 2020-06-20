@@ -22,6 +22,8 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
       <SWRConfig
         value={{
           fetcher: (key: string) => fetch(key).then((res) => res.json()),
+          revalidateOnFocus: false,
+          revalidateOnReconnect: false,
         }}
       >
         <Component {...pageProps} />
