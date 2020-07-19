@@ -1,5 +1,6 @@
 // https://nextjs.org/docs/advanced-features/custom-error-page
 
+import React from 'react'
 import { NextPage } from 'next'
 import Error from 'next/error'
 

@@ -1,7 +1,18 @@
+import React from 'react'
 import { NextPage } from 'next'
 import Head from 'next/head'
+import { gql } from '@apollo/client'
+import { useHelloWorldQuery } from '@/gql/client'
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const QUERY_HELLOWORLD = gql`
+  query helloWorld {
+    helloWorld
+  }
+`
 
 export const Page: NextPage = () => {
+  const helloWorld = useHelloWorldQuery()
   return (
     <div className='container'>
       <Head>
@@ -13,6 +24,8 @@ export const Page: NextPage = () => {
         <h1 className='title'>
           Welcome to <a href='https://nextjs.org'>Next.js!</a>
         </h1>
+
+        {helloWorld.data && <h2>{helloWorld.data.helloWorld}</h2>}
 
         <p className='description'>
           Get started by editing <code>pages/index.tsx</code>

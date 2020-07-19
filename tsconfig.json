@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@/components": ["components/"],
-      "@/components/*": ["components/*"]
+      "@/components/*": ["components/*"],
+      "@/gql": ["gql/"],
+      "@/gql/*": ["gql/*"]
     }
   },
   "exclude": ["node_modules"],

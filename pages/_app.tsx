@@ -1,12 +1,20 @@
 // https://nextjs.org/docs/advanced-features/custom-app
 
+import React from 'react'
 import { AppProps } from 'next/app'
 import { CssBaseline } from '@material-ui/core'
 import Head from 'next/head'
 import Header from '@/components/Header'
 import { SWRConfig } from 'swr'
+import { ApolloClient, HttpLink, InMemoryCache, ApolloProvider } from '@apollo/client'
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
+  const client = new ApolloClient({
+    cache: new InMemoryCache(),
+    link: new HttpLink({
+      uri: '/api/graphql',
+    }),
+  })
   return (
     <>
       <Head>
@@ -26,7 +34,9 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
           revalidateOnReconnect: false,
         }}
       >
-        <Component {...pageProps} />
+        <ApolloProvider client={client}>
+          <Component {...pageProps} />
+        </ApolloProvider>{' '}
       </SWRConfig>
     </>
   )
