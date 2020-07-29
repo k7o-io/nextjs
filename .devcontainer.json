@@ -1,0 +1,21 @@
+{
+  "build": {
+    "dockerFile": "../Dockerfile",
+    "target": "dev"
+  },
+  "forwardPorts": [3000],
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "exiasr.hadolint",
+    "esbenp.prettier-vscode",
+    "mutantdino.resourcemonitor",
+    "redhat.vscode-yaml"
+  ],
+  "postCreateCommand": "yarn install",
+  "dockerFile": "Dockerfile",
+  "context": ".",
+  "settings": {
+    "terminal.integrated.shell.linux": null
+  }
+}
