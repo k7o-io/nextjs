@@ -3,9 +3,9 @@ WORKDIR /app
 COPY package.json yarn.lock ./
 
 FROM base as dev
-RUN yarn install
 
-FROM dev as build
+FROM base as build
+RUN yarn install
 COPY . ./
 RUN yarn run format
 RUN yarn run lint
