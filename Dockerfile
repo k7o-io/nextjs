@@ -1,4 +1,4 @@
-FROM node:14.7.0-buster as base
+FROM node:14.7.0 as base
 WORKDIR /app
 COPY package.json yarn.lock ./
 
