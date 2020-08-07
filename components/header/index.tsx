@@ -1,14 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { fade, makeStyles } from '@material-ui/core/styles'
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  InputBase,
-  IconButton,
-  Badge,
-} from '@material-ui/core'
+import { AppBar, Toolbar, Typography, InputBase, IconButton, Badge } from '@material-ui/core'
 import AccountCircle from '@material-ui/icons/AccountCircle'
 import NotificationsIcon from '@material-ui/icons/Notifications'
 import SearchIcon from '@material-ui/icons/Search'
