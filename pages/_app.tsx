@@ -4,7 +4,7 @@ import React from 'react'
 import { AppProps } from 'next/app'
 import { CssBaseline } from '@material-ui/core'
 import Head from 'next/head'
-import Header from '@/components/Header'
+import { Header } from '@/components'
 import { SWRConfig } from 'swr'
 import { ApolloClient, HttpLink, InMemoryCache, ApolloProvider } from '@apollo/client'
 
