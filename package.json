@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "concurrently 'yarn:codegen -w' 'yarn:next'",
-    "next": "next dev",
     "build": "yarn run codegen && next build",
+    "export": "yarn run codegen && next export",
     "analyze": "ANALYZE=true yarn run build",
     "start": "next start",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,yaml,gql,md,html,css}'",
