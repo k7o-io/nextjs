@@ -1660,9 +1660,9 @@
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
 "@samverschueren/stream-to-observable@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
-  integrity sha512-MI4Xx6LHs4Webyvi6EbspgyAb4D2Q2VtnCQ1blOJcoLS6mVa8lNN2rkIy1CVxfTUpoyIbCTkXES1rLXztFD1lg==
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.1.tgz#a21117b19ee9be70c379ec1877537ef2e1c63301"
+  integrity sha512-c/qwwcHyafOQuVQJj0IlBjf5yYgBI7YPJ77k4fOJYesb41jio65eaJODRUmfYKhTOFBrIZ66kgvGPlNbjuoRdQ==
   dependencies:
     any-observable "^0.3.0"
 
@@ -5090,9 +5090,9 @@ get-own-enumerable-property-symbols@^3.0.0:
   integrity sha512-I0UBV/XOz1XkIJHEUDMZAbzCThU/H8DxmSfmdGcKPnVhu2VfFqr34jr9777IyaTYvxjedWhqVIilEDsCdP5G6g==
 
 get-stream@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.1.0.tgz#01203cdc92597f9b909067c3e656cc1f4d3c4dc9"
-  integrity sha512-EXr1FOzrzTfGeL0gQdeFEvOMm2mzMOglyiOXSTpPC+iAjAKftbr3jpCMWynogwYnM+eSj9sHGc6wjIcDvYiygw==
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
+  integrity sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==
   dependencies:
     pump "^3.0.0"
 
@@ -7205,9 +7205,9 @@ onetime@^2.0.0:
     mimic-fn "^1.0.0"
 
 onetime@^5.1.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/onetime/-/onetime-5.1.1.tgz#5c8016847b0d67fcedb7eef254751cfcdc7e9418"
-  integrity sha512-ZpZpjcJeugQfWsfyQlshVoowIIQ1qBGSVll4rfDq6JJVO//fesjoX808hXWfBjY+ROZgpKDI5TRSRBSoJiZ8eg==
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/onetime/-/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
+  integrity sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
   dependencies:
     mimic-fn "^2.1.0"
 
@@ -8323,9 +8323,9 @@ remove-trailing-separator@^1.0.1:
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
 remove-trailing-spaces@^1.0.6:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/remove-trailing-spaces/-/remove-trailing-spaces-1.0.7.tgz#491f04e11d98880714d12429b0d0938cbe030ae6"
-  integrity sha512-wjM17CJ2kk0SgoGyJ7ZMzRRCuTq+V8YhMwpZ5XEWX0uaked2OUq6utvHXGNBQrfkUzUUABFMyxlKn+85hMv4dg==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/remove-trailing-spaces/-/remove-trailing-spaces-1.0.8.tgz#4354d22f3236374702f58ee373168f6d6887ada7"
+  integrity sha512-O3vsMYfWighyFbTd8hk8VaSj9UAGENxAtX+//ugIst2RMk5e03h6RoIS+0ylsFxY1gvmPuAY/PO4It+gPEeySA==
 
 repeat-element@^1.1.2:
   version "1.1.3"
