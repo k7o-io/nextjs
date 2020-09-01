@@ -3,12 +3,13 @@
   "scripts": {
     "dev": "concurrently 'yarn:codegen -w' 'yarn:next'",
     "build": "yarn run codegen && next build",
+    "codegen": "graphql-codegen -c codegen.yaml",
     "export": "yarn run codegen && next export",
     "analyze": "ANALYZE=true yarn run build",
     "start": "next start",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,yaml,gql,md,html,css}'",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "codegen": "graphql-codegen -c codegen.yaml",
+    "lhci:collect": "lhci collect",
     "build:precommit": "yarn run build ; :"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
     "@graphql-codegen/typescript-operations": "1.17.8",
     "@graphql-codegen/typescript-react-apollo": "2.0.6",
     "@graphql-codegen/typescript-resolvers": "1.17.9",
+    "@lhci/cli": "0.5.0",
     "@next/bundle-analyzer": "9.5.2",
     "@types/node": "14.6.2",
     "@types/react": "16.9.49",
@@ -106,6 +108,9 @@
     }
   },
   "eslintIgnore": [
+    "node_modules/",
+    "out/",
+    ".lighthouseci/",
     "next.config.js",
     "apollo.config.js",
     "gql/client.ts",

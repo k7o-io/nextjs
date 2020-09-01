@@ -32,3 +32,6 @@ yarn-error.log*
 # codegen
 /gql/client.ts
 /gql/resolvers.types.ts
+
+# lighthouseci
+/.lighthouseci/
