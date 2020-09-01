@@ -17,6 +17,10 @@ export const Page: NextPage = () => {
       <Head>
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
+        <meta
+          name='description'
+          content='Next.js example index page served with SSR on Vercel platform.'
+        />
       </Head>
 
       <main>
