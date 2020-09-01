@@ -4,8 +4,7 @@ import Head from 'next/head'
 import { gql } from '@apollo/client'
 import { useHelloWorldQuery } from '@/gql/client'
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const QUERY_HELLOWORLD = gql`
+gql`
   query helloWorld {
     helloWorld
   }
