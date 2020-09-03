@@ -15,6 +15,18 @@ export const Page: NextPage = () => {
   return (
     <div className='container'>
       <Head>
+        <meta
+          name='go-import'
+          content='k7o.io/
+                  git https://github.com/k7o-io/'
+        />
+        <meta
+          name='go-source'
+          content='k7o.io/
+                  https://github.com/k7o-io/
+                  https://github.com/k7o-io//tree/master{/dir}
+                  https://github.com/k7o-io//blob/master{/dir}/{file}#L{line}'
+        />
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
         <meta
