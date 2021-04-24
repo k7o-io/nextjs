@@ -1319,9 +1319,9 @@
     "@types/node" "*"
 
 "@types/js-yaml@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.0.tgz#d1a11688112091f2c711674df3a65ea2f47b5dfb"
-  integrity sha512-4vlpCM5KPCL5CfGmTbpjwVKbISRYhduEJvvUWsH5EB7QInhEj94XPZ3ts/9FPiLZFqYO0xoW4ZL8z2AabTGgJA==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.1.tgz#5544730b65a480b18ace6b6ce914e519cec2d43b"
+  integrity sha512-xdOvNmXmrZqqPy3kuCQ+fz6wA0xU5pji9cd1nDrflWaAWtYLLGk5ykW0H6yg5TVyehHP1pfmuuSaZkhP+kspVA==
 
 "@types/json-schema@^7.0.3":
   version "7.0.7"
@@ -7735,9 +7735,9 @@ sync-fetch@0.3.0:
     node-fetch "^2.6.1"
 
 table@^6.0.4:
-  version "6.3.4"
-  resolved "https://registry.yarnpkg.com/table/-/table-6.3.4.tgz#5d8a7fa1c887bd1ef08741751ec36246255a80b6"
-  integrity sha512-fhKcZ3+oAYG/ld3seJEZ9+fGSsy+yeoPzLQUrwbOzNYdhrU+6TzObhJ2Sp76ZfUGIrDTrxsXz5NSCZJIUOJb4Q==
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/table/-/table-6.5.1.tgz#930885a7430f15f8766b35cd1e36de40793db523"
+  integrity sha512-xGDXWTBJxahkzPQCsn1S9ESHEenU7TbMD5Iv4FeopXv/XwJyWatFjfbor+6ipI10/MNPXBYUamYukOrbPZ9L/w==
   dependencies:
     ajv "^8.0.1"
     lodash.clonedeep "^4.5.0"
@@ -7745,6 +7745,7 @@ table@^6.0.4:
     lodash.truncate "^4.4.2"
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
+    strip-ansi "^6.0.0"
 
 term-size@^1.2.0:
   version "1.2.0"
