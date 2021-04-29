@@ -29,7 +29,7 @@
     "@graphql-codegen/typescript-operations": "1.17.16",
     "@graphql-codegen/typescript-react-apollo": "2.2.4",
     "@graphql-codegen/typescript-resolvers": "1.19.1",
-    "@lhci/cli": "0.7.1",
+    "@lhci/cli": "0.7.2",
     "@next/bundle-analyzer": "10.2.0",
     "@types/node": "15.0.1",
     "@types/react": "17.0.4",
