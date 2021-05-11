@@ -1470,9 +1470,9 @@
     "@types/node" "*"
 
 "@types/ws@^7.0.0":
-  version "7.4.2"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-7.4.2.tgz#bfe739b5f8b3a39742605fbe415ae7e88ee614c8"
-  integrity sha512-PbeN0Eydl7LQl4OIav29YmkO2LxbVuz3nZD/kb19lOS+wLgIkRbWMNmU/QQR7ABpOJ7D7xDOU8co7iohObewrw==
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-7.4.3.tgz#eb68ffe017489566164f859cd88513907f50a18a"
+  integrity sha512-LiMEM1yWxVHbFLGn00ADIg/EKjZsX7B29pioAr8Qe4yZtqSEl+aRcuGukxqA7I/7aZqOfrYdJpFEPNKB0cmhbg==
   dependencies:
     "@types/node" "*"
 
